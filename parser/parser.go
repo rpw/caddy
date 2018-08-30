@@ -11,15 +11,15 @@ import (
 	"strings"
 
 	"github.com/asdine/storm"
-	l "github.com/filebrowser/filebrowser/lib"
-	"github.com/filebrowser/filebrowser/lib/bolt"
-	"github.com/filebrowser/filebrowser/lib/staticgen"
+	l "github.com/rpw/filebrowser/lib"
+	"github.com/rpw/filebrowser/lib/bolt"
+	"github.com/rpw/filebrowser/lib/staticgen"
 	"github.com/hacdias/fileutils"
 	"github.com/mholt/caddy"
 	"github.com/mholt/caddy/caddyhttp/httpserver"
 
 	// importing go-rice assets
-	_ "github.com/filebrowser/caddy/assets"
+	_ "github.com/rpw/caddy/assets"
 )
 
 var databases = map[string]*storm.DB{}

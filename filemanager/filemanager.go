@@ -3,9 +3,9 @@ package filemanager
 import (
 	"net/http"
 
-	"github.com/filebrowser/caddy/parser"
-	l "github.com/filebrowser/filebrowser/lib"
-	h "github.com/filebrowser/filebrowser/lib/http"
+	"github.com/rpw/caddy/parser"
+	l "github.com/rpw/filebrowser/lib"
+	h "github.com/rpw/filebrowser/lib/http"
 	"github.com/mholt/caddy"
 	"github.com/mholt/caddy/caddyhttp/httpserver"
 )
